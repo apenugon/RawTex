@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDC3B03D17572F5900679AAC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3B03C17572F5900679AAC /* Cocoa.framework */; };
+		FDC3B04717572F5900679AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC3B04517572F5900679AAC /* InfoPlist.strings */; };
+		FDC3B04917572F5900679AAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3B04817572F5900679AAC /* main.m */; };
+		FDC3B04D17572F5900679AAC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = FDC3B04B17572F5900679AAC /* Credits.rtf */; };
+		FDC3B05017572F5900679AAC /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3B04F17572F5900679AAC /* Document.m */; };
+		FDC3B05317572F5900679AAC /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC3B05117572F5900679AAC /* Document.xib */; };
+		FDC3B05617572F5900679AAC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FDC3B05417572F5900679AAC /* MainMenu.xib */; };
+		FDC3B05E17572F5A00679AAC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3B05D17572F5900679AAC /* SenTestingKit.framework */; };
+		FDC3B05F17572F5A00679AAC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC3B03C17572F5900679AAC /* Cocoa.framework */; };
+		FDC3B06717572F5A00679AAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDC3B06517572F5A00679AAC /* InfoPlist.strings */; };
+		FDC3B06A17572F5A00679AAC /* RawTexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC3B06917572F5A00679AAC /* RawTexTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDC3B06017572F5A00679AAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDC3B02F17572F5900679AAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDC3B03717572F5900679AAC;
+			remoteInfo = RawTex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FDC3B03817572F5900679AAC /* RawTex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RawTex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC3B03C17572F5900679AAC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FDC3B03F17572F5900679AAC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		FDC3B04017572F5900679AAC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		FDC3B04117572F5900679AAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDC3B04417572F5900679AAC /* RawTex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RawTex-Info.plist"; sourceTree = "<group>"; };
+		FDC3B04617572F5900679AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDC3B04817572F5900679AAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDC3B04A17572F5900679AAC /* RawTex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RawTex-Prefix.pch"; sourceTree = "<group>"; };
+		FDC3B04C17572F5900679AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		FDC3B04E17572F5900679AAC /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
+		FDC3B04F17572F5900679AAC /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
+		FDC3B05217572F5900679AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		FDC3B05517572F5900679AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		FDC3B05C17572F5900679AAC /* RawTexTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RawTexTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC3B05D17572F5900679AAC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		FDC3B06417572F5A00679AAC /* RawTexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RawTexTests-Info.plist"; sourceTree = "<group>"; };
+		FDC3B06617572F5A00679AAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDC3B06817572F5A00679AAC /* RawTexTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RawTexTests.h; sourceTree = "<group>"; };
+		FDC3B06917572F5A00679AAC /* RawTexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RawTexTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDC3B03517572F5900679AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B03D17572F5900679AAC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3B05817572F5900679AAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B05E17572F5A00679AAC /* SenTestingKit.framework in Frameworks */,
+				FDC3B05F17572F5A00679AAC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDC3B02D17572F5900679AAC = {
+			isa = PBXGroup;
+			children = (
+				FDC3B04217572F5900679AAC /* RawTex */,
+				FDC3B06217572F5A00679AAC /* RawTexTests */,
+				FDC3B03B17572F5900679AAC /* Frameworks */,
+				FDC3B03917572F5900679AAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDC3B03917572F5900679AAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B03817572F5900679AAC /* RawTex.app */,
+				FDC3B05C17572F5900679AAC /* RawTexTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDC3B03B17572F5900679AAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B03C17572F5900679AAC /* Cocoa.framework */,
+				FDC3B05D17572F5900679AAC /* SenTestingKit.framework */,
+				FDC3B03E17572F5900679AAC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FDC3B03E17572F5900679AAC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B03F17572F5900679AAC /* AppKit.framework */,
+				FDC3B04017572F5900679AAC /* CoreData.framework */,
+				FDC3B04117572F5900679AAC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		FDC3B04217572F5900679AAC /* RawTex */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B04E17572F5900679AAC /* Document.h */,
+				FDC3B04F17572F5900679AAC /* Document.m */,
+				FDC3B05117572F5900679AAC /* Document.xib */,
+				FDC3B05417572F5900679AAC /* MainMenu.xib */,
+				FDC3B04317572F5900679AAC /* Supporting Files */,
+			);
+			path = RawTex;
+			sourceTree = "<group>";
+		};
+		FDC3B04317572F5900679AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B04417572F5900679AAC /* RawTex-Info.plist */,
+				FDC3B04517572F5900679AAC /* InfoPlist.strings */,
+				FDC3B04817572F5900679AAC /* main.m */,
+				FDC3B04A17572F5900679AAC /* RawTex-Prefix.pch */,
+				FDC3B04B17572F5900679AAC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FDC3B06217572F5A00679AAC /* RawTexTests */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B06817572F5A00679AAC /* RawTexTests.h */,
+				FDC3B06917572F5A00679AAC /* RawTexTests.m */,
+				FDC3B06317572F5A00679AAC /* Supporting Files */,
+			);
+			path = RawTexTests;
+			sourceTree = "<group>";
+		};
+		FDC3B06317572F5A00679AAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDC3B06417572F5A00679AAC /* RawTexTests-Info.plist */,
+				FDC3B06517572F5A00679AAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDC3B03717572F5900679AAC /* RawTex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC3B06D17572F5A00679AAC /* Build configuration list for PBXNativeTarget "RawTex" */;
+			buildPhases = (
+				FDC3B03417572F5900679AAC /* Sources */,
+				FDC3B03517572F5900679AAC /* Frameworks */,
+				FDC3B03617572F5900679AAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RawTex;
+			productName = RawTex;
+			productReference = FDC3B03817572F5900679AAC /* RawTex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDC3B05B17572F5900679AAC /* RawTexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDC3B07017572F5A00679AAC /* Build configuration list for PBXNativeTarget "RawTexTests" */;
+			buildPhases = (
+				FDC3B05717572F5900679AAC /* Sources */,
+				FDC3B05817572F5900679AAC /* Frameworks */,
+				FDC3B05917572F5900679AAC /* Resources */,
+				FDC3B05A17572F5900679AAC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDC3B06117572F5A00679AAC /* PBXTargetDependency */,
+			);
+			name = RawTexTests;
+			productName = RawTexTests;
+			productReference = FDC3B05C17572F5900679AAC /* RawTexTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDC3B02F17572F5900679AAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Akul Penugonda";
+			};
+			buildConfigurationList = FDC3B03217572F5900679AAC /* Build configuration list for PBXProject "RawTex" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDC3B02D17572F5900679AAC;
+			productRefGroup = FDC3B03917572F5900679AAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDC3B03717572F5900679AAC /* RawTex */,
+				FDC3B05B17572F5900679AAC /* RawTexTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDC3B03617572F5900679AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B04717572F5900679AAC /* InfoPlist.strings in Resources */,
+				FDC3B04D17572F5900679AAC /* Credits.rtf in Resources */,
+				FDC3B05317572F5900679AAC /* Document.xib in Resources */,
+				FDC3B05617572F5900679AAC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3B05917572F5900679AAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B06717572F5A00679AAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FDC3B05A17572F5900679AAC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDC3B03417572F5900679AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B04917572F5900679AAC /* main.m in Sources */,
+				FDC3B05017572F5900679AAC /* Document.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDC3B05717572F5900679AAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDC3B06A17572F5A00679AAC /* RawTexTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDC3B06117572F5A00679AAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDC3B03717572F5900679AAC /* RawTex */;
+			targetProxy = FDC3B06017572F5A00679AAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDC3B04517572F5900679AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3B04617572F5900679AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDC3B04B17572F5900679AAC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3B04C17572F5900679AAC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		FDC3B05117572F5900679AAC /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3B05217572F5900679AAC /* en */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		FDC3B05417572F5900679AAC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3B05517572F5900679AAC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		FDC3B06517572F5A00679AAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDC3B06617572F5A00679AAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDC3B06B17572F5A00679AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDC3B06C17572F5A00679AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDC3B06E17572F5A00679AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawTex/RawTex-Prefix.pch";
+				INFOPLIST_FILE = "RawTex/RawTex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDC3B06F17572F5A00679AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawTex/RawTex-Prefix.pch";
+				INFOPLIST_FILE = "RawTex/RawTex-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FDC3B07117572F5A00679AAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RawTex.app/Contents/MacOS/RawTex";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawTex/RawTex-Prefix.pch";
+				INFOPLIST_FILE = "RawTexTests/RawTexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FDC3B07217572F5A00679AAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RawTex.app/Contents/MacOS/RawTex";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RawTex/RawTex-Prefix.pch";
+				INFOPLIST_FILE = "RawTexTests/RawTexTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDC3B03217572F5900679AAC /* Build configuration list for PBXProject "RawTex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3B06B17572F5A00679AAC /* Debug */,
+				FDC3B06C17572F5A00679AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDC3B06D17572F5A00679AAC /* Build configuration list for PBXNativeTarget "RawTex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3B06E17572F5A00679AAC /* Debug */,
+				FDC3B06F17572F5A00679AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FDC3B07017572F5A00679AAC /* Build configuration list for PBXNativeTarget "RawTexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDC3B07117572F5A00679AAC /* Debug */,
+				FDC3B07217572F5A00679AAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDC3B02F17572F5900679AAC /* Project object */;
+}
